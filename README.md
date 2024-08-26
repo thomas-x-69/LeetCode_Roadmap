@@ -51,7 +51,7 @@
 # Project Name
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
-## Architecture
+## Roadmap
 ```mermaid
 graph TD
     A{{DSA Roadmap}} --> B[Arrays & Hashing]
