@@ -49,18 +49,56 @@
 
 </details>
 # Project Name
-
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
-## Project Overview
-```
-```
-
 ## Architecture
+```mermaid
+graph TD
+    A{{DSA Roadmap}} --> B[Arrays & Hashing]
+    B --> C[Two Pointers]
+    B --> D[Stack]
+    C --> E[Binary Search]
+    C --> F[Sliding Window]
+    C --> G[Linked List]
+    C --> G
+    E --> H[Trees]
+    F --> H
+    G --> H
+    H --> I[Tries]
+    H --> J[Heap / Priority Queue]
+    H --> K[Backtracking]
+    I --> L[Intervals]
+    J --> M[Greedy]
+    K --> N[Graphs]
+    K --> O[1-D DP]
+    N --> P[Advanced Graphs]
+    N --> Q[2-D DP]
+    O --> R[Bit Manipulation]
+    Q --> S[Math & Geometry]
+```
+<!-- another alternative>
 
 ```mermaid
-graph TD;
-    A[Problem solving Roadmap] -->|First Things first| B[learn DSA];
-    B --> C[Leetcode];
-    B --> D[codeforces];
+
+mindmap
+  root((DSA Roadmap))
+    Arrays & Hashing
+      Two Pointers
+        Binary Search
+        Sliding Window
+        Linked List
+      Stack
+    Trees
+      Tries
+      Backtracking
+        Graphs
+        1-D DP
+      Heap / Priority Queue
+        Intervals
+        Greedy
+        Advanced Graphs
+        2-D DP
+        Bit Manipulation
+          Math & Geometry
 ```
+<!-- another alternative-->
