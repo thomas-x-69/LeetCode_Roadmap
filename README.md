@@ -54,176 +54,23 @@
 ## Roadmap
 ```mermaid
 graph TD
-    A[DSA Roadmap]
-    A --> B[1. Arrays/String]
-    B --> C[2. Hashing]
-    C --> D[3. Two Pointers]
-    D --> E[4. Sliding Window]
-    E --> F[5. Stack]
-    F --> G[6. Binary Search]
-    G --> H[7. Linked List]
-    H --> I[8. Trees]
-    I --> J[9. Backtracking]
-    J --> K[10. Graphs]
-    K --> L[11. Heaps]
-    L --> M[12. Dynamic Programming]
-    M --> N[13. Intervals]
-    N --> O[14. Tries]
-    O --> P[15. Greedy]
-    P --> Q[16. Bit Manipulation]
-    Q --> R[17. Math]
-
-    subgraph SG1[" "]
-        direction TB
-        C1[Prefix Sum]
-    end
-    C --- SG1
-
-    subgraph SG2[" "]
-        direction TB
-        D1[Warmup]
-        D2[Running from both ends of an array]
-        D3[Caterpillar]
-        D4[Running from beginning of 2 arrays]
-        D5[Others]
-        D1 --> D2 --> D3 --> D4 --> D5
-    end
-    D --- SG2
-
-    subgraph SG3[" "]
-        direction TB
-        E1[Fixed Size]
-        E2[Variable Size]
-        E1 --> E2
-    end
-    E --- SG3
-
-    subgraph SG4[" "]
-        direction TB
-        F1[Parentheses push & pop]
-        F2[Next Greater Element]
-        F1 --> F2
-    end
-    F --- SG4
-
-    subgraph SG5[" "]
-        direction TB
-        G1[Rotated Binary Search]
-        G2[Minimum and Maximum Sum Type]
-        G3[Two Array Types]
-        G4[Design]
-        G1 --> G2 --> G3 --> G4
-    end
-    G --- SG5
-
-    subgraph SG6[" "]
-        direction TB
-        H1[Basic Operations]
-        H2[2 or more LL]
-        H3[Fast Pointer Slow Pointer]
-        H4[Design]
-        H1 --> H2 --> H3 --> H4
-    end
-    H --- SG6
-
-    subgraph SG7[" "]
-        direction TB
-        I1[Construction and Modification]
-        I2[Binary Search Tree BST Operations]
-        I3[Path Problems]
-        I4[Tree Properties and Metrics]
-        I5[Tree Comparison]
-        I6[Ancestor Problems]
-        I1 --> I2 --> I3 --> I4 --> I5 --> I6
-    end
-    I --- SG7
-
-    subgraph SG8[" "]
-        direction TB
-        J1[Permutations]
-        J2[Combinations]
-        J3[Subset]
-        J1 --> J2 --> J3
-    end
-    J --- SG8
-
-    subgraph SG9[" "]
-        direction TB
-        K1[BFS]
-        K2[DFS]
-        K3[Connected Components]
-        K4[Dijkstra's Algorithm]
-        K5[Union Find]
-        K6[Minimum Spanning Tree]
-        K7[Topological Sort]
-        K8[Floyd Warshall Algorithm]
-        K9[Bellman Ford Algorithm]
-        K10[Graph Coloring]
-        K1 --> K2 --> K3 --> K4 --> K5 --> K6 --> K7 --> K8 --> K9 --> K10
-    end
-    K --- SG9
-
-    subgraph SG10[" "]
-        direction TB
-        L1[Sorting]
-        L2[Heap Pop]
-        L3[Kth Largest/Smallest Element]
-        L4[Design]
-        L5[Sweep Line]
-        L6[Advanced Heap]
-        L1 --> L2 --> L3 --> L4 --> L5 --> L6
-    end
-    L --- SG10
-
-    subgraph SG11[" "]
-        direction TB
-        M1[Linear DP]
-        M2[Knapsack]
-        M3[Multi Dimensions DP]
-        M4[Interval DP]
-        M5[Bit DP]
-        M6[Digit DP]
-        M7[DP on Trees]
-        M8[String DP]
-        M9[Probability DP]
-        M10[Classic DPs]
-        M11[DP + Alpha Tricks/DS]
-        M12[Insertion DP]
-        M13[Graph DP]
-        M14[Memoization]
-        M15[Binary Lifting]
-        M16[Math]
-        M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7 --> M8 --> M9 --> M10 --> M11 --> M12 --> M13 --> M14 --> M15 --> M16
-    end
-    M --- SG11
-
-    subgraph SG12[" "]
-        direction TB
-        P1[Sorting]
-        P2[Two Pointer]
-        P3[Heap]
-        P4[Miscellaneous]
-        P1 --> P2 --> P3 --> P4
-    end
-    P --- SG12
-
-    subgraph SG13[" "]
-        direction TB
-        Q1[Basic Properties of XOR]
-        Q2[DP + Bitmasks]
-        Q3[Generating Submasks of a Bitmask]
-        Q4[Misc]
-        Q1 --> Q2 --> Q3 --> Q4
-    end
-    Q --- SG13
-
-    subgraph SG14[" "]
-        direction TB
-        R1[Basic Math]
-        R2[Matrix]
-        R1 --> R2
-    end
-    R --- SG14
+    A{{DSA Roadmap}} --> B[0. Arrays/String]
+    B --> C[1. Hashing]
+    C --> D[2. Two Pointers]
+    D --> E[3. Sliding Window]
+    E --> F[4. Stack]
+    F --> G[5. Binary Search]
+    G --> H[6. Linked List]
+    H --> I[7. Trees]
+    I --> J[8. Backtracking]
+    J --> K[9. Graphs]
+    K --> L[10. Heaps]
+    L --> M[11. Dynamic Programming]
+    M --> N[12. Intervals]
+    N --> O[13. Tries]
+    O --> P[14. Greedy]
+    P --> Q[15. Bit Manipulation]
+    Q --> R[16. Math]
 ```
 <!-- another alternative>
 
