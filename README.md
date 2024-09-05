@@ -53,7 +53,7 @@
 ## Roadmap
 ```mermaid
 graph TD
-    A{{DSA Roadmap}}
+    A{{**DSA Roadmap**}}
     A --> B(0- Arrays/String)
     B --> C(1- Hashing)
     B --> C1(Prefix Sum)
