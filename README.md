@@ -1,4 +1,4 @@
-<details>
+<!-- <details>
 <summary>🌈 Click to reveal awesome table! 🚀</summary>
 
 <table>
@@ -18,7 +18,7 @@
           <li>Item 1 🔥</li>
           <li>Item 2 ⚡</li>
         </ul>
-      </details>
+      </details> 
     </td>
     <td style="background-color: #FFF9C4; padding: 10px; border: 1px solid #FFF176;">
       <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" alt="Octocat" width="50"><br>
@@ -47,7 +47,7 @@
   </tr>
 </table>
 
-</details>
+</details>-->
 
 
 ## Roadmap
